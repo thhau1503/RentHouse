@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rent-house/static/css/main.ac66587b.css",
+    "main.js": "/rent-house/static/js/main.b336b904.js",
+    "index.html": "/rent-house/index.html",
+    "main.ac66587b.css.map": "/rent-house/static/css/main.ac66587b.css.map",
+    "main.b336b904.js.map": "/rent-house/static/js/main.b336b904.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac66587b.css",
+    "static/js/main.b336b904.js"
+  ]
+}
