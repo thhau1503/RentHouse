@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -21,7 +21,6 @@ import CreatePost from "../pages/CreatePost";
 import PhoneVerification from "../pages/PhoneVerify";
 import Contract from "../pages/Contract";
 import FavoritesPage from "../pages/Favorites";
-import { BookingFormContainer } from "../styled/ListingDetailStyles";
 import RoomBookingForm from "../pages/BookingRoom";
 import PaymentPage from "../pages/PaymentPage";
 import RenterHeader from "../components/common/renterHeader";

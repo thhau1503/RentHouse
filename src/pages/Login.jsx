@@ -10,6 +10,14 @@ export default function Login() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
+  const handleForgotPasswordClick = () => {
+    navigate("/forgot-password");
+  };
+
+  const handleRegisterClick = () => {
+    navigate("/register");
+  };
+
   const handleChange = (e) => {
     setCredentials({
       ...credentials,
@@ -81,10 +89,10 @@ export default function Login() {
           </button>
         </form>
         <div className="footer-links">
-          <a href="/forgot-password" className="footer-link">
+          <a onClick={handleForgotPasswordClick} className="footer-link">
             Quên mật khẩu?
           </a>
-          <a href="/register" className="footer-link">
+          <a onClick={handleRegisterClick} className="footer-link">
             Đăng ký
           </a>
         </div>
