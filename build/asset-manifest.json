@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rent-house/static/css/main.ac66587b.css",
-    "main.js": "/rent-house/static/js/main.a8146111.js",
+    "main.js": "/rent-house/static/js/main.766d57f3.js",
     "index.html": "/rent-house/index.html",
     "main.ac66587b.css.map": "/rent-house/static/css/main.ac66587b.css.map",
-    "main.a8146111.js.map": "/rent-house/static/js/main.a8146111.js.map"
+    "main.766d57f3.js.map": "/rent-house/static/js/main.766d57f3.js.map"
   },
   "entrypoints": [
     "static/css/main.ac66587b.css",
-    "static/js/main.a8146111.js"
+    "static/js/main.766d57f3.js"
   ]
 }

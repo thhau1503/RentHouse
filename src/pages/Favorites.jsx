@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getFavorites } from "../api/favourites";
+import { getAllFavorites, getFavorites } from "../api/favourites";
 import { useAuth } from "../hooks/useAuth";
 
 const FavoritesPage = () => {
@@ -13,7 +13,7 @@ const FavoritesPage = () => {
   useEffect(() => {
     const fetchFavorites = async () => {
       try {
-        const response = await getFavorites();
+        const response = await getAllFavorites();
         console.log("API Response:", response);
         setFavorites(response.data);
         console.log("Danh sách yêu thích:", response.data);

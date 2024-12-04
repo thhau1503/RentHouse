@@ -27,8 +27,6 @@ const AuthProvider = ({ children }) => {
       );
       localStorage.setItem("token", token);
       localStorage.setItem("refreshToken", refreshToken);
-      console.log("authcontext", user_role);
-      console.log("Thông tin người dùng đăng nhập thành công:", userData.user);
     } else {
       console.error("Thông tin người dùng không đầy đủ");
     }

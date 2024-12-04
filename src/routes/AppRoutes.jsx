@@ -35,7 +35,6 @@ const AppRoutes = () => {
   console.log("approute", user_role);
   return (
     <Router>
-      {/* Conditionally render the header based on userRole */}
       {user_role === "Renter" ? <RenterHeader /> : <Header />}
 
       <Routes>

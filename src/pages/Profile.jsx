@@ -56,14 +56,14 @@ const Profile = () => {
 
   useEffect(() => {
     fetchProfile();
-  }, [user, token]);
+  }, []);
 
-  useEffect(() => {
-    if (location.state && location.state.updated) {
-      setError("Thông tin cá nhân đã được cập nhật thành công.");
-      fetchProfile();
-    }
-  }, [location.state]);
+  // useEffect(() => {
+  //   if (location.state && location.state.updated) {
+  //     setError("Thông tin cá nhân đã được cập nhật thành công.");
+  //     fetchProfile();
+  //   }
+  // }, [location.state]);
 
   const handleEditProfile = () => {
     navigate("/editProfile", { state: { fromProfile: true } });
